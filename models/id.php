@@ -1,6 +1,6 @@
 <?php
 
-    include 'conection.php';
+    include 'bd_biblioteca.php';
 
     $id_libro = $_GET['id_libro']; 
     //codigo de editar, asi com el delete de eliminar

@@ -27,7 +27,7 @@
 			</button>
 		</div>
 
-		<!-- <div class="container">
+		<div class="container">
 			<main>
 				<div class="container">
 					<div class="row row-cols-sm-1 row-cols-md-2  row-cols-lg-3 row-cols-xl-4">
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 			</main>
-		</div> -->
+		</div>
 		
 		<!-- Container Text -->
 		<div class="container mt-5">

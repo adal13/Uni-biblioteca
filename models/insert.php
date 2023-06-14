@@ -1,11 +1,10 @@
 <?php
-include './conection.php';
+include 'bd_biblioteca.php';
 
 $nombre=$_POST['nombre'];
 $volumen=$_POST['volumen'];
 $etiqueta=$_POST['etiqueta'];
 $autor=$_POST['autor'];
-// $estatus=$_POST['estatus'];
 
     $sql= "INSERT INTO libros (id_libro, nombre, volumen, 
     etiqueta, autor, estatus, fecha_creacion) 

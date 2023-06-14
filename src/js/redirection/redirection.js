@@ -4,23 +4,23 @@
 // }
 
 function home(){
-    location.href="http://localhost/cursos/practica/index.php"
+    location.href="http://localhost/cursos/practica1/index.php"
 }
 
 function books(){
-    location.href="http://localhost/cursos/practica/view/books.php"
+    location.href="http://localhost/cursos/practica1/view/books.php"
 }
 
 function borrowed() {
-	location.href="http://localhost/cursos/practica/view/borrowed_books.php"
+	location.href="http://localhost/cursos/practica1/view/borrowed_books.php"
 }
 
 function author() {
-	location.href="http://localhost/cursos/practica/view/author.php"
+	location.href="http://localhost/cursos/practica1/view/author.php"
 }
 
 function removed() {
-	location.href="http://localhost/cursos/practica/view/removed.php"
+	location.href="http://localhost/cursos/practica1/view/removed.php"
 }
 
 // document.getElementById('books').onclick = function(){

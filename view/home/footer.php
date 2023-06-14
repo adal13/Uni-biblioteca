@@ -12,13 +12,14 @@
 			</footer>
 		</div>
 	
-	<script src="http://localhost/cursos/practica/src/js/jquery.min.js"></script>
-	<script src="http://localhost/cursos/practica/src/js/popper.min.js"></script>
-	<script src="http://localhost/cursos/practica/src/js/bootstrap/bootstrap.min.js"></script>
+	<script src="http://localhost/cursos/practica1/src/js/jquery.min.js"></script>
+	<script src="http://localhost/cursos/practica1/src/js/popper.min.js"></script>
+	<script src="http://localhost/cursos/practica1/src/js/bootstrap/bootstrap.min.js"></script>
 
-	<script src="http://localhost/cursos/practica/src/js/bootstrap/bootstrap.js"></script>
-	<script src="http://localhost/cursos/practica/src/js/redirection/redirection.js"></script>
-	<script src="http://localhost/cursos/practica/src/js/delete-book.js" type="text/javascript"></script>
+	<script src="http://localhost/cursos/practica1/src/js/bootstrap/bootstrap.js"></script>
+	<script src="http://localhost/cursos/practica1/src/js/redirection/redirection.js"></script>
+	<script src="http://localhost/cursos/practica1/src/js/delete-book.js" type="text/javascript"></script>
+	<script src="http://localhost/cursos/practica1/src/js/quey.js" type="text/javascript"></script>
 	
 
 

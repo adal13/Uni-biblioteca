@@ -1,5 +1,5 @@
 <?php 
-    include 'conection.php';
+    include 'bd_biblioteca.php';
 
     $sql = "SELECT * FROM libros WHERE estatus = 1";
     

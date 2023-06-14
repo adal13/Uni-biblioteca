@@ -1,15 +1,5 @@
 <?php
-    include 'conection.php';
-    
-    // $id_libro= $_REQUEST['id_libro'];
-    // $DeleteRegistro = ("DELETE FROM libros WHERE id_libro= '".$id_libro."' "); 
-    // mysqli_query($mysqli, $DeleteRegistro);
-    
-    // $id_libro=$_GET['id_libro'];
-    
-    // $delete = "DELETE FROM  libros WHERE id_libro= '$id_libro'";
-    
-    // $result = mysqli_query($mysqli, $delete);
+    include 'bd_biblioteca.php';
     
     $id_libro=$_GET['id_libro'];
 

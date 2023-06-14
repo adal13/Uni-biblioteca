@@ -1,16 +1,15 @@
 <?php 
 
-    include 'conection.php';
+    include 'bd_biblioteca.php';
 
     $id_libro = $_POST['id_libro'];
     $nombre=$_POST['nombre'];
     $volumen=$_POST['volumen'];
     $etiqueta=$_POST['etiqueta'];
     $autor=$_POST['autor'];
-    $estatus=$_POST['estatus'];
 
     $sql="UPDATE libros SET nombre = '$nombre', volumen = '$volumen', 
-    etiqueta = '$etiqueta', autor = '$autor', estatus = '$estatus' WHERE  id_libro = '$id_libro' ";
+    etiqueta = '$etiqueta', autor = '$autor' WHERE  id_libro = '$id_libro' ";
 
     $result = mysqli_query($mysqli, $sql);
 
