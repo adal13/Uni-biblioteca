@@ -27,14 +27,24 @@ session_start();
                 <tbody>
                     <tr class="text-center">
                         <?php $id = $libro['id_libro']; ?>
-                        <td><?php echo $libro['nombre'] ?></td>
-                        <td><?php echo $libro['volumen'] ?></td>
-                        <td><?php echo $libro['etiqueta'] ?></td>
-                        <td><?php echo $libro['autor'] ?></td>
+                        <td>
+                            <?php echo $libro['nombre'] ?>
+                        </td>
+                        <td>
+                            <?php echo $libro['volumen'] ?>
+                        </td>
+                        <td>
+                            <?php echo $libro['etiqueta'] ?>
+                        </td>
+                        <td>
+                            <?php echo $libro['autor'] ?>
+                        </td>
                         <div class="m-auto">
-                            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#update<?php echo $libro['id_libro']; ?>">Editar</button></td>
+                            <td><button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#update<?php echo $libro['id_libro']; ?>">Editar</button></td>
 
-                            <td><button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#delete<?php echo $libro['id_libro']; ?>">Eliminar</button></td>
+                            <td><button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                    data-bs-target="#delete<?php echo $libro['id_libro']; ?>">Eliminar</button></td>
                         </div>
                     </tr>
                 </tbody>
